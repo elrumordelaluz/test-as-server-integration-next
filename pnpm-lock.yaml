@@ -15,11 +15,11 @@ importers:
         specifier: ^0.14.1
         version: 0.14.1(@apollo/client@4.0.9(graphql@16.12.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(rxjs@7.8.2))(@types/react@19.2.6)(graphql@16.12.0)(next@16.0.3(@babel/core@7.28.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(rxjs@7.8.2)
       '@apollo/server':
-        specifier: ^5.0.0
-        version: 5.0.0(graphql@16.12.0)
+        specifier: ^5.1.0
+        version: 5.1.0(graphql@16.12.0)
       '@as-integrations/next':
         specifier: ^4.1.0
-        version: 4.1.0(@apollo/server@5.0.0(graphql@16.12.0))(next@16.0.3(@babel/core@7.28.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))
+        version: 4.1.0(@apollo/server@5.1.0(graphql@16.12.0))(next@16.0.3(@babel/core@7.28.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))
       graphql-tag:
         specifier: ^2.12.6
         version: 2.12.6(graphql@16.12.0)
@@ -37,8 +37,8 @@ importers:
         specifier: ^4
         version: 4.1.17
       '@types/node':
-        specifier: ^20
-        version: 20.19.25
+        specifier: ^24.10.1
+        version: 24.10.1
       '@types/react':
         specifier: ^19
         version: 19.2.6
@@ -114,8 +114,8 @@ packages:
     peerDependencies:
       graphql: 14.x || 15.x || 16.x
 
-  '@apollo/server@5.0.0':
-    resolution: {integrity: sha512-PHopOm7pr69k7eDJvCBU4cZy9Z19qyCFKB9/luLnf2YCatu2WOYhoQPNr3dAoe//xv0RZFhxXbRcnK6IXIP7Nw==}
+  '@apollo/server@5.1.0':
+    resolution: {integrity: sha512-azqwwmKp23TMFQkjE66622sdY2Ao9d+LrebW++b3rFCNxU6XAl/vRwInOh9ejNgShDQzVS+bdCIFQnH9+r+N1A==}
     engines: {node: '>=20'}
     peerDependencies:
       graphql: ^16.11.0
@@ -708,8 +708,8 @@ packages:
   '@types/long@4.0.2':
     resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
 
-  '@types/node@20.19.25':
-    resolution: {integrity: sha512-ZsJzA5thDQMSQO788d7IocwwQbI8B5OPzmqNvpf3NY/+MHDAS759Wo0gd2WQeXYt5AAAQjzcrTVC6SKCuYgoCQ==}
+  '@types/node@24.10.1':
+    resolution: {integrity: sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -2228,8 +2228,8 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
   unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
@@ -2370,7 +2370,7 @@ snapshots:
       '@apollo/utils.logger': 3.0.0
       graphql: 16.12.0
 
-  '@apollo/server@5.0.0(graphql@16.12.0)':
+  '@apollo/server@5.1.0(graphql@16.12.0)':
     dependencies:
       '@apollo/cache-control-types': 1.0.3(graphql@16.12.0)
       '@apollo/server-gateway-interface': 2.0.0(graphql@16.12.0)
@@ -2449,9 +2449,9 @@ snapshots:
 
   '@apollo/utils.withrequired@3.0.0': {}
 
-  '@as-integrations/next@4.1.0(@apollo/server@5.0.0(graphql@16.12.0))(next@16.0.3(@babel/core@7.28.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))':
+  '@as-integrations/next@4.1.0(@apollo/server@5.1.0(graphql@16.12.0))(next@16.0.3(@babel/core@7.28.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))':
     dependencies:
-      '@apollo/server': 5.0.0(graphql@16.12.0)
+      '@apollo/server': 5.1.0(graphql@16.12.0)
       next: 16.0.3(@babel/core@7.28.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
 
   '@babel/code-frame@7.27.1':
@@ -2930,9 +2930,9 @@ snapshots:
 
   '@types/long@4.0.2': {}
 
-  '@types/node@20.19.25':
+  '@types/node@24.10.1':
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 7.16.0
 
   '@types/react-dom@19.2.3(@types/react@19.2.6)':
     dependencies:
@@ -4694,7 +4694,7 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  undici-types@6.21.0: {}
+  undici-types@7.16.0: {}
 
   unpipe@1.0.0: {}
 

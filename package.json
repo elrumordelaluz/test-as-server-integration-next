@@ -11,7 +11,7 @@
   "dependencies": {
     "@apollo/client": "^4.0.9",
     "@apollo/client-integration-nextjs": "^0.14.1",
-    "@apollo/server": "^5.0.0",
+    "@apollo/server": "^5.1.0",
     "@as-integrations/next": "^4.1.0",
     "graphql-tag": "^2.12.6",
     "next": "16.0.3",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^24.10.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
